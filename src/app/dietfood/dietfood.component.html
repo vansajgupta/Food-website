@@ -1,0 +1,23 @@
+
+
+<table>
+    <thead>
+        <tr>
+            <th>SKU</th>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Pic</th>
+        </tr>
+    </thead>
+
+    <tbody> <!--Structural directive     For method-->
+        <tr *ngFor ="let dietfoods of dietfood">
+            <td>{{dietfoods.sku}}</td>
+                <td>{{dietfoods.name}}</td>
+                <td>{{dietfoods.brand}}</td>
+                <td>{{dietfoods.price}}</td>
+
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+
+.nav-items{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.navbar-text{
+    text-decoration: solid;
+    margin-right: 50px;
+    margin-left: 5px ;
+    color: brown;
+    text-shadow: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+}
